@@ -64,7 +64,7 @@ function dependencies(){
 function quickinstall(){
     clear
 
-    quick_install_programs=(assetfinder subfinder amass dirsearch feroxbuster gobuster ffuf nmap aws dnstwist burpsuite)
+    quick_install_programs=(assetfinder nuclei sqlmap subfinder amass dirsearch feroxbuster gobuster ffuf nmap aws dnstwist burpsuite)
 
     echo -ne "${purpleColour}[*] ${endColour}${blueColour}Installing tools....${endColour}\n"
 
